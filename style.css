@@ -70,6 +70,10 @@ body{
     color: #3A3A3A;
 }
 
+.header_img{
+    width: 100%;
+}
+
 .header_para{
     font-size: 1rem;
     font-weight: 600;
