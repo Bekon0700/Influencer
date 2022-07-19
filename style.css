@@ -238,8 +238,7 @@ body{
 }
 
 .featured_img{
-    width: 404px;
-    height: 270px;
+    width: 100%;
 }
 
 .featured_container{
