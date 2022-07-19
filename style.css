@@ -265,3 +265,27 @@ footer{
     font-size: 2rem;
     font-weight: 500;
 }
+
+/* media queries */
+
+@media only screen and (max-width: 674px) {
+    .header_container, .gallery{
+        width: 100%;
+    }
+
+    .nav_bar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main_header{
+        flex-direction: column-reverse;
+    }
+    .header_left, .header_right{
+        width: 90%;
+    }
+
+    .items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
